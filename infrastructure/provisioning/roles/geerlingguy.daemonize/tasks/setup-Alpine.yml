@@ -1,0 +1,2 @@
+- name: Install packages needed to install geerlingguy.daemonize
+  command: apk add --update --no-cache --virtual .build-deps make g++ gcc tar unzip
